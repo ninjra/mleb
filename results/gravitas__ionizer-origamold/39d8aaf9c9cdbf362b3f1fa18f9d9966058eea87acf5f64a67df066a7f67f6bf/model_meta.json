@@ -1,0 +1,29 @@
+{
+  "adapted_from": null,
+  "embed_dim": null,
+  "framework": [
+    "Gravitas",
+    "Ionizer Origamold Zig"
+  ],
+  "is_cross_encoder": false,
+  "languages": [],
+  "license": "Apache-2.0 OR Commercial",
+  "loader": null,
+  "max_tokens": null,
+  "memory_usage_mb": null,
+  "modalities": [
+    "text"
+  ],
+  "n_parameters": null,
+  "name": "gravitas/ionizer-origamold",
+  "open_weights": false,
+  "public_training_code": null,
+  "public_training_data": null,
+  "reference": null,
+  "release_date": null,
+  "revision": "39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf",
+  "similarity_fn_name": "deterministic raw-bytechunk topology",
+  "superseded_by": null,
+  "training_datasets": null,
+  "use_instructions": null
+}

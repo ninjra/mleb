@@ -215,6 +215,12 @@ MLEB_MODEL_PROVIDERS = [
         link="https://free.law/",
         logo="https://media.isaacus.com/third-parties/icons/freelaw.png",
     ),
+    MLEBModelProvider(
+        id="gravitas",
+        name="Gravitas",
+        link=None,
+        logo=None,
+    ),
 ]
 
 MLEB_MODEL_PROVIDERS = {p.id: p for p in MLEB_MODEL_PROVIDERS}
@@ -475,6 +481,16 @@ MLEB_MODELS = [
         embedding_dimensions=768,
         context_window=8_192,
         link="https://huggingface.co/freelawproject/modernbert-embed-base_finetune_512",
+    ),
+    # | Gravitas
+    MLEBModel(
+        id="gravitas/ionizer-origamold",
+        name="Ionizer Origamold",
+        provider=MLEB_MODEL_PROVIDERS["gravitas"],
+        open_source=False,
+        embedding_dimensions=0,
+        context_window=0,
+        link=None,
     ),
 ]
 
