@@ -155,6 +155,24 @@
     "schema_version": "gravitas-mleb-aggregate-source-manifest-v1"
   },
   "telemetry_scope": "public compact-rank replay and official-format scoring only; not proprietary runtime timing",
+  "non_embedding_dimension_note": "The values in ionizer_topology_dimensions are Gravitas/Ionizer topology dimensions, not vector embedding dimensions; scripts/export.py intentionally keeps embedding_dimensions=0 and context_window=0.",
+  "ionizer_topology_dimensions": {
+    "dimension_kind": "raw-bytechunk topology",
+    "universal_aperture_width_bytes": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "aperture_ladder_count": 5,
+    "compact_rank_index_rank_width": 1000,
+    "query_count": 2535,
+    "record_count": 7635,
+    "ranked_query_count": 2535,
+    "rank_ledger_entry_count": 2535000,
+    "universal_slag_byte_count": 0
+  },
   "topology_summary": {
     "compact_rank_index_rank_width": 1000,
     "failed_checks": [],
