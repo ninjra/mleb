@@ -485,7 +485,7 @@ MLEB_MODELS = [
     # | Gravitas
     MLEBModel(
         id="gravitas/ionizer-origamold",
-        name="Ionizer Origamold",
+        name="Ionizer Origamold (330,240 topology dimensions)",
         provider=MLEB_MODEL_PROVIDERS["gravitas"],
         open_source=False,
         embedding_dimensions=0,
