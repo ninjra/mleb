@@ -158,6 +158,12 @@
   "non_embedding_dimension_note": "The values in ionizer_topology_dimensions are Gravitas/Ionizer topology dimensions, not vector embedding dimensions; scripts/export.py intentionally keeps embedding_dimensions=0 and context_window=0.",
   "ionizer_topology_dimensions": {
     "dimension_kind": "raw-bytechunk topology",
+    "dimension_source": "observed_raw_bytechunk_relations",
+    "dimension_derivation_authority": "positive_receipted_observed_relation_derivation",
+    "tracked_dimension_count": 330240,
+    "tracked_dimension_count_source": "topology_receipt.relation_bridge_count",
+    "finite_execution_budget_observed_relation_upper_bound": 294203365,
+    "finite_execution_budget_source": "topology_receipt.dynamic_derivation_receipt.finite_execution_budget.observed_relation_upper_bound",
     "universal_aperture_width_bytes": [
       1,
       2,
