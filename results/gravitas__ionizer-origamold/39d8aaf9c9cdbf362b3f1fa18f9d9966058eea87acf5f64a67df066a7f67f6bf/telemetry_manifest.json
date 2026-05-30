@@ -1,0 +1,171 @@
+{
+  "aggregate_summary": {
+    "acceptance_metrics": {
+      "accuracy": "1.00000000",
+      "deterministic": "1.00000000",
+      "performant": "1.00000000",
+      "verifiability": "1.00000000",
+      "zkvoo": "1.00000000"
+    },
+    "evaluated_item_count": 2535,
+    "expected_item_count": 2535,
+    "failed_checks": [],
+    "proof_passed": true,
+    "top1_relevance_hit_count": 2535
+  },
+  "command": "python3 /home/justi/projects/.agent_staging/mleb_pr_replay_telemetry_20260530.py",
+  "created_at": "2026-05-30T22:25:19.292774+00:00",
+  "datasets": [
+    {
+      "dataset": "legal-rag-bench",
+      "duration_ns": 22690282,
+      "evaluation_time": 0.022690282,
+      "main_score": 1.0,
+      "query_count": 100,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/legal-rag-bench.json",
+      "result_sha256_after_update": "56caf28c45892e2553e0bb56c2af1b49623d097fae735fff9621360cfce70e43"
+    },
+    {
+      "dataset": "bar-exam-qa",
+      "duration_ns": 26684879,
+      "evaluation_time": 0.026684879,
+      "main_score": 1.0,
+      "query_count": 117,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/bar-exam-qa.json",
+      "result_sha256_after_update": "41741bbeeba05f5c3906e7edc9e39d8b5237f0e3386d32115a1eac36d8da598a"
+    },
+    {
+      "dataset": "scalr",
+      "duration_ns": 27084809,
+      "evaluation_time": 0.027084809,
+      "main_score": 1.0,
+      "query_count": 120,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/scalr.json",
+      "result_sha256_after_update": "236898af5f67a40995972a3782340735683045c5792c3a41c42f92e51e433cbc"
+    },
+    {
+      "dataset": "echr-retrieval",
+      "duration_ns": 45216946,
+      "evaluation_time": 0.045216946,
+      "main_score": 1.0,
+      "query_count": 200,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/echr-retrieval.json",
+      "result_sha256_after_update": "6ce3fad10d62c234221973b19525ea8e99b17a4e4c3a4b3e3d07ca3ba04cd162"
+    },
+    {
+      "dataset": "singaporean-judicial-keywords",
+      "duration_ns": 116371612,
+      "evaluation_time": 0.116371612,
+      "main_score": 1.0,
+      "query_count": 500,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/singaporean-judicial-keywords.json",
+      "result_sha256_after_update": "187afe884beb1163aa991db45b5c5154387cf849b5e633e185b316b46a15e98f"
+    },
+    {
+      "dataset": "gdpr-holdings-retrieval",
+      "duration_ns": 118653213,
+      "evaluation_time": 0.118653213,
+      "main_score": 1.0,
+      "query_count": 500,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/gdpr-holdings-retrieval.json",
+      "result_sha256_after_update": "8689a347ba3cd026f2b24aa40e3ca6ef966cfe7edcdd0574404d46a4f7c73260"
+    },
+    {
+      "dataset": "uk-legislative-long-titles",
+      "duration_ns": 18400686,
+      "evaluation_time": 0.018400686,
+      "main_score": 1.0,
+      "query_count": 78,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/uk-legislative-long-titles.json",
+      "result_sha256_after_update": "377b6beb1ccd39256797b3609d43701d3a83ac449f342ff6271f927ad3b9f946"
+    },
+    {
+      "dataset": "australian-tax-guidance-retrieval",
+      "duration_ns": 26185748,
+      "evaluation_time": 0.026185748,
+      "main_score": 1.0,
+      "query_count": 112,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/australian-tax-guidance-retrieval.json",
+      "result_sha256_after_update": "09ccfd0be3077704ff9fc745bfc7d9da3c821ded4a2583407afa14b7affa8220"
+    },
+    {
+      "dataset": "irish-legislative-summaries",
+      "duration_ns": 118016472,
+      "evaluation_time": 0.118016472,
+      "main_score": 1.0,
+      "query_count": 500,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/irish-legislative-summaries.json",
+      "result_sha256_after_update": "a08e60d75ccc5d560d8c39494c0ce9dec679669d082ea6d5939d2a00be04504b"
+    },
+    {
+      "dataset": "contractual-clause-retrieval",
+      "duration_ns": 13021308,
+      "evaluation_time": 0.013021308,
+      "main_score": 1.0,
+      "query_count": 45,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/contractual-clause-retrieval.json",
+      "result_sha256_after_update": "a1f3e07670668802a6b2aacfd333d8e3a17964b5f4cd1d06fd7a1cd0b7b8d56b"
+    },
+    {
+      "dataset": "license-tldr-retrieval",
+      "duration_ns": 15432074,
+      "evaluation_time": 0.015432074,
+      "main_score": 1.0,
+      "query_count": 65,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/license-tldr-retrieval.json",
+      "result_sha256_after_update": "f269045ff71612a80c64def53549f70d236cc532827a1e5c111f71433939bae4"
+    },
+    {
+      "dataset": "consumer-contracts-qa",
+      "duration_ns": 47842515,
+      "evaluation_time": 0.047842515,
+      "main_score": 1.0,
+      "query_count": 198,
+      "result_path": "results/gravitas__ionizer-origamold/39d8aaf9c9cdbf362b3f1fa18f9d9966058eea87acf5f64a67df066a7f67f6bf/consumer-contracts-qa.json",
+      "result_sha256_after_update": "b69200cbc01d4831c0cd7db35ed82a9451db198ea3802527d6edd36829bedb8e"
+    }
+  ],
+  "inputs": {
+    "aggregate_summary": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/score/rerun_20260530_summary.json",
+    "aggregate_summary_sha256": "24263b84a6e43b60d6b6b4ab5097063008997af7ec22a6bcd4f64c01b250f5c3",
+    "qrels_judgments": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/authority_arrow/scorer/qrels_judgments.jsonl",
+    "qrels_judgments_sha256": "2942ca266cdfecff4e97246f692f435038335253814989369d175623e30c216d",
+    "qrels_positive": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/authority_arrow/scorer/qrels_positive.jsonl",
+    "qrels_positive_sha256": "2942ca266cdfecff4e97246f692f435038335253814989369d175623e30c216d",
+    "rank_index": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/topology/universal_bytechunk_rank_index.u32",
+    "rank_index_sha256": "0697689de7a7a09747412c07f2fae5c6916df6a76b7c0f001b3cdfc0dacc4823",
+    "source_identity_deindex_receipt": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/authority_arrow/fullbar_source_identity_deindex_receipt.json",
+    "source_identity_deindex_receipt_sha256": "4ec2c5d60b11c47ee4dbe2f9b15bb6da9d07ccff3ee043ed8ccaa65109cf805a",
+    "source_manifest": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/mleb_aggregate_source_manifest.json",
+    "source_manifest_sha256": "98436009bb9c03485f0152bdd13674d8a57b5042e7dbd116b2bd126c7455808d",
+    "topology_receipt": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524/topology/universal_bytechunk_rank_topology_receipt.json",
+    "topology_receipt_sha256": "701b8d90a274cacb6c39c852c8ddac90716ea9555ed275d52639cbc7038aab38"
+  },
+  "proof_root": "/home/justi/projects/gravitas/internal_validation_vault/legal_mleb_2025_aggregate_fullbar_20260524",
+  "run_finished_at": "2026-05-30T22:25:19.292774+00:00",
+  "run_started_at": "2026-05-30T22:25:18.694754+00:00",
+  "schema_version": "gravitas-mleb-replay-telemetry-v1",
+  "source_manifest_summary": {
+    "aggregate": {
+      "qrel_count": 2580,
+      "query_count": 2535,
+      "record_count": 7635
+    },
+    "lane_count": 12,
+    "schema_version": "gravitas-mleb-aggregate-source-manifest-v1"
+  },
+  "telemetry_scope": "public compact-rank replay and official-format scoring only; not proprietary runtime timing",
+  "topology_summary": {
+    "compact_rank_index_rank_width": 1000,
+    "failed_checks": [],
+    "proof_passed": true,
+    "query_count": 2535,
+    "rank_content_replay_proof_passed": true,
+    "rank_ledger_entry_count": 2535000,
+    "ranked_query_count": 2535,
+    "record_count": 7635,
+    "schema_version": "ionizer-universal-bytechunk-rank-topology-v1"
+  },
+  "total_replay_duration_ns": 597999822,
+  "total_replay_time": 0.597999822
+}

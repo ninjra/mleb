@@ -1,0 +1,7 @@
+{
+  "available_verification": "Public compact-rank replay is bound by telemetry_manifest.json, the topology receipt, source identity deindex receipt, qrels, and aggregate scorer rerun summary.",
+  "cryptographic_proof_included": false,
+  "reason": "No real Groth16 circuit, proof, verification key, and public input set with a passing tamper-negative verifier is included in this PR.",
+  "schema_version": "gravitas-mleb-verification-status-v1",
+  "status": "no_groth16_artifacts_included"
+}
